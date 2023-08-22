@@ -1,0 +1,172 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cont</title>
+    <link rel="stylesheet" href="nav.css" />
+  </head>
+  <style>
+    body {
+      background-color: rgb(5, 5, 67);
+    }
+    .head {
+      color: white;
+      font-size: 40px;
+    }
+    .content {
+      color: white;
+      font-size: 30px;
+    }
+    .top {
+      display: grid;
+      margin-left: 20%;
+      margin-top: 20px;
+      grid-template-columns: 1fr 1fr;
+      column-gap: 100px;
+    }
+    .box {
+      background-color: rgb(7, 35, 118);
+      border-radius: 20px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      column-gap: 50px;
+      height: 600px;
+      margin-right: 80px;
+      margin-left: 80px;
+    }
+    .box:hover{
+        box-shadow: 10px 10px 10px 10px  rgb(105, 105, 243);
+    }
+    h2 {
+      color: white;
+      font-family: cursive;
+      font-size: 45px;
+    }
+    .main {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      column-gap: 5px;
+      grid-gap: 0px;
+      margin-right: 30px;
+    }
+    input {
+      border-radius: 5px;
+      margin-right: 10px;
+      margin-bottom: 0px;
+      margin-top: 0px;
+      border: 0px;
+      height: 60px;
+    }
+    input:hover{
+        box-shadow: 5px 5px 5px 5px  rgb(146, 152, 104);
+    }
+    .msg {
+      grid-column: 1 / span 2;
+      height: 120px;
+    }
+     button{
+      color: black;
+      background-color: gold;
+      position: absolute;
+      top: 110%;
+      left: 12%;
+      height: 50px;
+      width: 350px;
+      border-radius: 50px;
+    }
+    button:hover {
+      background-color: goldenrod;
+      box-shadow: 10px 10px 10px 10px rgba(214, 239, 71, 1);
+      cursor: pointer;
+    }
+    .handles {
+      font-size: 30px;
+      color: aliceblue;
+      padding-left: 15px;
+      padding-right: 25px;
+    }
+    .social{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-left: 130px;
+    }
+    .tags{
+      color: white;
+      font-size: 28px;
+    }
+  </style>
+
+  <body>
+    <nav>
+    
+      <a class="active" href="home.php">Home</a>
+      <a href="submissionform.php">Submit here </a>
+      <a href="connect.html">Contact</a>
+      <a href="client_reviews.html">Client Feedback</a>
+      <a href="services.html">About</a>
+      <a href="login.php">LOGIN</a> 
+      <a href="#"></a> 
+        
+  <div class="animation start-home"></div>
+        
+      </nav>
+    <br />
+    <div class="top">
+      <span>
+        <h1 align="center" class="head">Contact Us</h1>
+        <p align="center" class="content">
+          Have a question or request?<br />
+          We are all ears! Share your order instructions to let us kickstart
+          your paper now.
+        </p>
+      </span>
+      <img
+        src="https://justdomyhomework.com/static/img//contacts-promo.svg"
+        width="300px"
+        height="300px"
+      />
+    </div>
+    <br />
+    <div class="box">
+      <img
+        src="https://justdomyhomework.com/static/img/contacts/letters.svg"
+        style="margin-left: 20px"
+        height="400px"
+        width="500px"
+      />
+      <button type="button">Submit</button>
+
+      <span class="main">
+        <h2 style="grid-column: 1 / span 2"><u>Get In Touch</u></h2>
+        <input type="text" placeholder="Your Name" required />
+        <input type="text" placeholder="Your Contact Number" required />
+        <input type="email" placeholder="Your E-Mail" required />
+        <input type="text" placeholder="Subject" />
+        <input type="text" placeholder="Your Message" class="msg" required />
+      </span>
+    </div>
+    <br />
+    <div class="social">
+      <p class="tags">@annsylum.writers</p>
+      <img
+      src="https://media3.giphy.com/media/cJXlcXMGevIIETJAYk/200w.webp?cid=ecf05e47d8huw3r5i4npzopm4i9i74lm0jwdgchp1fup9n2o&rid=200w.webp&ct=g"
+      height="80px" width=80px">
+      
+<p class="tags">@annsylum.writers</p>
+      <img
+        src="https://media0.giphy.com/media/XEy1qyv7GdLpmqHEPV/200w.webp?cid=ecf05e47d8huw3r5i4npzopm4i9i74lm0jwdgchp1fup9n2o&rid=200w.webp&ct=g"
+        height="80px"
+        width="80px"
+      />
+      
+<p class="tags">@annsylum.writers</p>
+      <img
+        src="https://media2.giphy.com/media/h2ejccV0wxvPnOch27/200w.webp?cid=ecf05e47d8huw3r5i4npzopm4i9i74lm0jwdgchp1fup9n2o&rid=200w.webp&ct=g"
+        height="80px"
+        width="80px"
+      />
+      
+    </div>
+  </body>
+</html>
